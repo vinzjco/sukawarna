@@ -1,0 +1,16 @@
+{
+    "name": "blessed/sukawarna",
+    "description": "GBI Sukawarna Program",
+    "authors": [
+        {
+            "name": "Melvin Jeconiah",
+            "email": "vinzjco@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "sukawarna\\": "app/"
+        }
+    }
+}
