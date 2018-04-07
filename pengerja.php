@@ -116,20 +116,20 @@ try {
                             <div class="form-group col-md-3">
                                 <p>VOKAL</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkWL">
-                                    <label class="form-check-label" for="WL">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdWL" value="option1">
+                                    <label class="form-check-label" for="rdWL">
                                         Worship Leader
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkSinger">
-                                    <label class="form-check-label" for="Singer">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdSinger" value="option1">
+                                    <label class="form-check-label" for="rdSinger">
                                         Singer
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkChoir">
-                                    <label class="form-check-label" for="Choir">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdChoir" value="option1">
+                                    <label class="form-check-label" for="rdChoir">
                                         Choir
                                     </label>
                                 </div>
@@ -139,44 +139,44 @@ try {
                             <div class="form-group col-md-3">
                                 <p>MUSIK</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkKeyboard">
-                                    <label class="form-check-label" for="keyboard">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdKey" value="option1" checked>
+                                    <label class="form-check-label" for="rdKey">
                                         Keyboard
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkBass">
-                                    <label class="form-check-label" for="bass">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdBass" value="option1">
+                                    <label class="form-check-label" for="rdBass">
                                         Bass
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkDrum">
-                                    <label class="form-check-label" for="drum">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdDrum" value="option1">
+                                    <label class="form-check-label" for="rdDrum">
                                         Drum
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkGitar">
-                                    <label class="form-check-label" for="gitar">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdGitar" value="option1">
+                                    <label class="form-check-label" for="rdGitar">
                                         Gitar Elektrik
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkSaxophone">
-                                    <label class="form-check-label" for="saxophone">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdSaxophone" value="option1">
+                                    <label class="form-check-label" for="rdSaxophone">
                                         Saxophone
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkBiols">
-                                    <label class="form-check-label" for="biola">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdBiola" value="option1">
+                                    <label class="form-check-label" for="rdBiola">
                                         Biola
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkPerkusi">
-                                    <label class="form-check-label" for="perkusi">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdPerkusi" value="option1">
+                                    <label class="form-check-label" for="rdPerkusi">
                                         Perkusi
                                     </label>
                                 </div>
@@ -185,8 +185,8 @@ try {
                             <div class="form-group col-md-3">
                                 <p>DANCE</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkDance">
-                                    <label class="form-check-label" for="dance">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdDance" value="option1">
+                                    <label class="form-check-label" for="rdDance">
                                         Dance
                                     </label>
                                 </div>
@@ -195,32 +195,32 @@ try {
                             <div class="form-group col-md-3">
                                 <p>AUDIO</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkMixer">
-                                    <label class="form-check-label" for="mixer">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdMixer" value="option1">
+                                    <label class="form-check-label" for="rdMixer">
                                         Mixer Operator
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkEquipment">
-                                    <label class="form-check-label" for="equipment">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdEquipment" value="option1">
+                                    <label class="form-check-label" for="rdEquipment">
                                         Equipment
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkLight">
-                                    <label class="form-check-label" for="light">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdLight" value="option1">
+                                    <label class="form-check-label" for="rdLight">
                                         Light
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkGraphic">
-                                    <label class="form-check-label" for="Graphic">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdGraphics" value="option1">
+                                    <label class="form-check-label" for="rdGraphics">
                                         Graphics
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="chkTV">
-                                    <label class="form-check-label" for="TV">
+                                    <input class="form-check-input" type="radio" name="rdBidang" id="rdTV" value="option1">
+                                    <label class="form-check-label" for="rdTV">
                                         TV
                                     </label>
                                 </div>
@@ -655,6 +655,15 @@ try {
                                         <label for="kuliahSemester" class="col-sm-3 control-label">Semester </label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control" id="kuliahSemester" placeholder="Semester">
+                                        </div>
+                                    </div>
+                                </div>
+<!--                                lainnya-->
+                                <div id="inputLain">
+                                    <div class="form-group row">
+                                        <label for="lain" class="col-sm-3 control-label">Pekerjaan </label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="namaPekerjaan" placeholder="Nama Pekerjaan">
                                         </div>
                                     </div>
                                 </div>

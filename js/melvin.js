@@ -51,36 +51,43 @@ $(document).ready(function() {
             $('#inputKuliah').hide();
             $('#inputSekolah').hide();
             $('#inputKaryawan').hide();
+            $('#inputLain').hide();
         } else if(this.value == '2'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').hide();
             $('#inputSekolah').hide();
             $('#inputKaryawan').show();
+            $('#inputLain').hide();
         } else if(this.value == '3'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').hide();
             $('#inputSekolah').show();
             $('#inputKaryawan').hide();
+            $('#inputLain').hide();
         } else if(this.value == '4'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').show();
             $('#inputSekolah').hide();
             $('#inputKaryawan').hide();
+            $('#inputLain').hide();
         } else if(this.value == '5'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').hide();
             $('#inputSekolah').hide();
             $('#inputKaryawan').hide();
+            $('#inputLain').hide();
         } else if(this.value == '6'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').hide();
             $('#inputSekolah').hide();
             $('#inputKaryawan').hide();
+            $('#inputLain').hide();
         } else if(this.value == '7'){
             $('#inputWiraswasta').hide();
             $('#inputKuliah').hide();
             $('#inputSekolah').hide();
             $('#inputKaryawan').hide();
+            $('#inputLain').show();
         }
     });
 
