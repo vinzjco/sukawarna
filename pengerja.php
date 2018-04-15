@@ -74,7 +74,13 @@ try {
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li><a href="index.php">Beranda</a></li>
+                <li><a href="bidang.php">Data Bidang</a></li>
+                <li><a href="cool.php">Data Cool</a></li>
+                <li><a href="kom.php">Data KOM</a></li>
+                <li><a href="kursus.php">Data Kursus</a></li>
+                <li><a href="pekerjaan.php">Data Pekerjaan</a></li>
                 <li class="active"><a href="pengerja.php">Data Pengerja <span class="sr-only">(current)</span></a></li>
+                <li><a href="pernikahan.php">Data Pernikahan</a></li>
             </ul>
         </div>
 
@@ -725,39 +731,35 @@ try {
                         <div class="form-group row">
                             <label for="kursus" class="col-sm-3 control-label">Kursus</label>
                             <div class="col-sm-6">
-                                <select class="form-control" id="cmbKursus">
-                                    <option value="1">Musik</option>
-                                    <option value="2">Audio</option>
-                                    <option value="3">Komputer</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="adaRekening" class="col-sm-3"></label>
-                            <div class="col-sm-6">
-<!--                                kursus musik-->
                                 <div id="inputKursusMusik">
                                     <div class="form-group row">
-                                        <label for="tempatKursusMusik" class="col-sm-3 control-label">Tempat Kursus </label>
+                                        <label for="tempatKursusMusik" class="col-sm-3 control-label">Musik </label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control" id="tempatKursusMusik" placeholder="Nama Tempat Kursus Musik">
                                         </div>
                                     </div>
                                 </div>
-<!--                                kursus audio-->
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="kursus" class="col-sm-3 control-label"></label>
+                            <div class="col-sm-6">
                                 <div id="inputKursusAudio">
                                     <div class="form-group row">
-                                        <label for="tempatKursusAudio" class="col-sm-3 control-label">Tempat Kursus </label>
+                                        <label for="tempatKursusAudio" class="col-sm-3 control-label">Audio</label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control" id="tempatKursusAudio" placeholder="Nama Tempat Kursus Audio">
                                         </div>
                                     </div>
                                 </div>
-<!--                                kursus komputer-->
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="kursus" class="col-sm-3 control-label"></label>
+                            <div class="col-sm-6">
                                 <div id="inputKursusKomputer">
                                     <div class="form-group row">
-                                        <label for="tempatKursusKomputer" class="col-sm-3 control-label">Tempat Kursus </label>
+                                        <label for="tempatKursusKomputer" class="col-sm-3 control-label">Komputer</label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control" id="tempatKursusKomputer" placeholder="Nama Tempat Kursus Komputer">
                                         </div>
@@ -765,6 +767,7 @@ try {
                                 </div>
                             </div>
                         </div>
+
 
 <!--                        emergency call-->
                         <div class="form-group row">
@@ -976,21 +979,15 @@ try {
                         <p><b>KEANGGOTAAN GEREJA</b></p>
                         <br>
                         <div class="form-group row">
-                            <label for="sekarangDi" class="col-sm-3 control-label">Sekarang di</label>
+                            <label for="tempatIbadahRutin" class="col-sm-3 control-label">Tempat Ibadah Rutin</label>
                             <div class="col-sm-6">
-                                <input type="text" class="form-control" id="sekarangDi" placeholder="Sekarang di">
+                                <input type="text" class="form-control" id="tempatIbadahRutin" placeholder="Tempat Ibadah Rutin">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="berjemaatSejak" class="col-sm-3 control-label">Berjemaat Sejak</label>
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" id="berjemaatSejak" placeholder="Berjemaat Sejak">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="tempatIbadahRutin" class="col-sm-3 control-label">Tempat Ibadah Rutin</label>
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" id="tempatIbadahRutin" placeholder="Tempat Ibadah Rutin">
                             </div>
                         </div>
                         <div class="form-group row">

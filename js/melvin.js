@@ -9,9 +9,6 @@ $(document).ready(function() {
     $('#inputKaryawan').hide();
     $('#inputSekolah').hide();
     $('#inputAdaRekening').show();
-    $('#inputKursusMusik').show();
-    $('#inputKursusAudio').hide();
-    $('#inputKursusKomputer').hide();
     $('#inputCoolYa').show();
     $('#inputRiwayat').show();
 
@@ -99,22 +96,6 @@ $(document).ready(function() {
         }
     });
 
-    $('#cmbKursus').on('change', function() {
-        if(this.value == '1') {
-            $('#inputKursusMusik').show();
-            $('#inputKursusAudio').hide();
-            $('#inputKursusKomputer').hide();
-        } else if(this.value == '2') {
-            $('#inputKursusMusik').hide();
-            $('#inputKursusAudio').show();
-            $('#inputKursusKomputer').hide();
-        } else if(this.value == '3') {
-            $('#inputKursusMusik').hide();
-            $('#inputKursusAudio').hide();
-            $('#inputKursusKomputer').show();
-        }
-    });
-
     $('#cmbCool').on('change', function() {
         if(this.value == '1') {
             $('#inputCoolYa').show();
@@ -130,7 +111,8 @@ $(document).ready(function() {
             $('#inputRiwayat').hide();
         }
     });
-
 });
+
+
 
 

@@ -57,7 +57,7 @@ try {
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Beranda</a></li>
+            <li><a href="/index.php">Beranda</a></li>
             <li><a href="#">Pengaturan</a></li>
             <li><a href="#">Bantuan</a></li>
           </ul>
@@ -73,7 +73,13 @@ try {
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="index.php">Beranda <span class="sr-only">(current)</span></a></li>
+            <li><a href="bidang.php">Data Bidang</a></li>
+            <li><a href="cool.php">Data Cool</a></li>
+            <li><a href="kom.php">Data KOM</a></li>
+            <li><a href="kursus.php">Data Kursus</a></li>
+            <li><a href="pekerjaan.php">Data Pekerjaan</a></li>
             <li><a href="pengerja.php">Data Pengerja</a></li>
+            <li><a href="pernikahan.php">Data Pernikahan</a></li>
           </ul>
         </div>
 
